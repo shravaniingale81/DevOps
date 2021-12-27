@@ -1,0 +1,65 @@
+status,status_description,Status_type
+100,Continue,Informational
+101,Switching Protocols,Informational
+102,Processing	Informational
+200,OK,Successful
+201,Created,Successful
+202,Accepted,Successful
+203,Non-Authoritative Information,Successful
+204,No Content,Successful
+205,Reset Content,Successful
+206,Partial Content,Successful
+207,Multi-Status,Successful
+208,Already Reported,Successful
+226,IM Used,Successful
+300,Multiple Choices,Redirection
+301,Moved Permanently,Redirection
+302,Found,Redirection
+303,See Other,Redirection
+304,Not Modified,Redirection
+305,Use Proxy,Redirection
+306,(Unused),Redirection
+307,Temporary Redirect	Redirection
+308,Permanent Redirect	Redirection
+400,Bad Request,Client error
+401,Unauthorized,Client error
+402,Payment Required,Client error
+403,Forbidden,Client error
+404,Not Found,Client error
+405,Method Not Allowed,Client error
+406,Not Acceptable,Client error
+407,Proxy Authentication Required,Client error
+408,Request Timeout,Client error
+409,Conflict,Client error
+410,Gone,Client error
+411,Length Required,Client error
+412,Precondition Failed,Client error
+413,Payload Too Large,Client error
+414,URI Too Long,Client error
+415,Unsupported Media Type,client error
+416,Range Not Satisfiable,Client error
+417,Expectation Failed,Client error
+421,Misdirected Request,Client error
+422,Unprocessable Entity,Client error
+423,Locked,Client error
+424,Failed Dependency,Client error
+425,Unassigned,Client error
+426,Upgrade Required,Client error
+427,Unassigned,Client error
+428,Precondition Required,Client error
+429,Too Many Requests,Client error
+430,Unassigned,Client error
+431,Request Header Fields Too Large,Client error
+451,Unavailable For Legal Reasons,Client error
+500,Internal Server Error,Server Error
+501,Not Implemented,Server Error
+502,Bad Gateway,Server Error
+503,Service Unavailable,Server Error
+504,Gateway Timeout,Server Error
+505,HTTP Version Not Supported,Server Error
+506,Variant Also Negotiates,Server Error
+507,Insufficient Storage,Server Error
+508,Loop Detected,Server Error
+509,Unassigned,Server Error
+510,Not Extended,Server Error
+511,Network Authentication Required,Server Error
